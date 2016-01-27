@@ -7,6 +7,7 @@ Discription: An implementation of "Fast Guided Image Filter" with OpenCV 3.0 (Ja
 - subsampling ratio: s (try s = r/4 to s=r)
 
 ## Uase Case
+```java
 Mat I = Imgproc.imread("I.jpg");
 Mat p = Imgproc.imread("p.jpg");
 I.convertTo(I, CvType.CV_32F);
@@ -23,3 +24,4 @@ Mat q = fastGuidedFilter.filter(I, p, 2*r+1, eps, s, -1);
 
 Core.multiply(q, new Scalar(255), q);
 q.convertTo(q, CvType.CV_8UC1);
+```
