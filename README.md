@@ -1,5 +1,5 @@
-# FastGuidedImageFilter
-Implementation of "Fast Guided Image Filter" with OpenCV 3.0 (Java API)
+# Fast Guided Image Filter implemented by OpenCV 3.0 (Java API)
+Discription: An implementation of "Fast Guided Image Filter" with OpenCV 3.0 (Java API)
 - guidance image: I (should be a color (RGB) image)
 - filtering input image: p (should be a gray-scale/single channel image)
 - local window radius: r
