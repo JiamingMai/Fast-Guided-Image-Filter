@@ -6,7 +6,7 @@ Implementation of "Fast Guided Image Filter" with OpenCV 3.0 (Java API)
 - regularization parameter: eps
 - subsampling ratio: s (try s = r/4 to s=r)
 
-# Uase Case
+## Uase Case
 Mat I = Imgproc.imread("I.jpg");
 Mat p = Imgproc.imread("p.jpg");
 I.convertTo(I, CvType.CV_32F);
